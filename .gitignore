@@ -1,0 +1,14 @@
+# Ignore all model weights
+model_weights/
+!model_weights/.gitkeep
+
+# (Optional) If you store weights elsewhere too:
+**/*.pkl
+**/*.h5
+**/*.pt
+**/*.ckpt
+**/*.joblib
+
+# (Optional) Ignore checkpoints/logs
+checkpoints/
+logs/
